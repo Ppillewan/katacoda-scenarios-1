@@ -1,13 +1,16 @@
 {
-  "title": "Docker Images Scenario",
+  "title": "Building Docker Image Scenario",
   "description": "Your First Scenario",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run docker images",
-      "text": "step1.md"
-    }],
+    "steps": [
+    { "title": "Step 1 - Install Appworkbench","text": "step1.md"},
+    { "title": "Step 2 - Create Dockerfile", "text": "step2.md"},
+    { "title": "Step 3 - Create the WB file", "text": "step3.md"},
+    { "title": "Step 4 - Create the appconfig directory", "text": "step4.md"},
+    { "title": "Step 5 - Create a logo file", "text": "step5.md"}
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
@@ -18,7 +21,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Bluedata Centos using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Bluedata Epic environment using `launch.sh`\u001b[m\r\n"
   },
   "backend": {
     "imageid": "centos-vm"

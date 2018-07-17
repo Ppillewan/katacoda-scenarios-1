@@ -1,8 +1,16 @@
 This is your first step.
 
-## Task
+## Task 1
+Run the following command to install AppWorkbench(AWB)
 
-This is an _example_ of creating a scenario and running a **command**
+`pip install --upgrade bdworkbench==3.2.2 `{{execute}}
 
-`echo 'Welcome to Bluedata'`{{execute}}
-`docker images`{{execute}}
+## Task 2
+Check the AWB version
+
+`bdwb --version `{{execute}}
+
+## Task 3
+List all the available options in AWB
+
+`bdwb --help `{{execute}}
