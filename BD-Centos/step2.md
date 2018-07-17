@@ -11,6 +11,7 @@ Building an app follows a seven-phase process:
 Create a Dockerfile
 
 `vi Dockerfile`{{execute}}
+
 Add this text in the Dockerfile below
 
 ##############################
