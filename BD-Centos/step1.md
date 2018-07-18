@@ -1,16 +1,22 @@
-This is your first step.
+
+This is your first step. 
+Let's understand the key commands for building a workbench file 
 
 ## Task 1
-Run the following command to install AppWorkbench(AWB)
 
-`pip install --upgrade bdworkbench==3.2.2 `{{execute}}
+Run bdwb command to enter into Appworkbench shell
+
+`bdwb`{{execute}}
 
 ## Task 2
-Check the AWB version
 
-`bdwb --version `{{execute}}
+Type "help" to get the list of supported workbench commands
+
+`help`{{execute}}
 
 ## Task 3
-List all the available options in AWB
 
-`bdwb --help `{{execute}}
+Specify the builder organization name
+
+`builder organization --name Bluedata`{{execute}}
+

@@ -1,26 +1,26 @@
-This is your Second step. Now let's start buidling images.
- 
-Building an app follows a seven-phase process:
+This is your Second step. 
 
-1. Create a Dockerfile
-2. Create the WB file
-3. Create the appconfig directory
-4. Create a logo file
+1. Let's focus on the keys aspects of image building
+    a. Create a new catalog image
+    b. Add few roles
+    c. Autogenerate the new application configuration scripts & package them
+    d. Pull the docker image from external repository or registry (ex: dockerhub)
+    e. Package the docker image in the bin file
+    f. Save the catalog
+    g. Package the sources & catlog to the bin file
 
-## Task 1
-Create a Dockerfile
 
-`vi Dockerfile`{{execute}}
+## Task 4
 
-Add this text in the Dockerfile below
+Create a new catalog image
 
-##############################
-# http Dockerfile
-################################
+`catalog new --distroid bluedata/centos7 --name "Bluedata Centos7x" --desc "This is Bluedata centos7 utility image"`{{execute}}
 
-# Use BlueData base image
-FROM bluedata/centos7
 
-#Install packages with silent (unattended) option
-RUN sudo yum -y install httpd"
+## Task 5
 
+Add few roles
+
+`role add controller 1`{{execute}}
+
+`role add worker 1+`{{execute}}

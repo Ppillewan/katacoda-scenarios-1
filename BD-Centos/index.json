@@ -2,14 +2,14 @@
   "title": "Building Docker Image Scenario",
   "description": "Your First Scenario",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
-    { "title": "Step 1 - Install Appworkbench","text": "step1.md"},
-    { "title": "Step 2 - Create Dockerfile", "text": "step2.md"},
-    { "title": "Step 3 - Create the WB file", "text": "step3.md"},
-    { "title": "Step 4 - Create the appconfig directory", "text": "step4.md"},
-    { "title": "Step 5 - Create a logo file", "text": "step5.md"}
+    { "title": "Step 1 - Introduction to Bluedata Workbench file","text": "step1.md"},
+    { "title": "Step 2 - Understanding the key commands of bdwb", "text": "step2.md"},
+    { "title": "Step 3 - Autogenerating application Configuration scripts", "text": "step3.md"},
+    { "title": "Step 4 - Image pull from Docker registry", "text": "step4.md"},
+    { "title": "Step 5 - Generating a bin file", "text": "step5.md"}
     ],
     "intro": {
       "text": "intro.md",

@@ -1,1 +1,1 @@
-You've completed your first Katacoda scenario!
+You've completed building the Bluedata image successfully!
