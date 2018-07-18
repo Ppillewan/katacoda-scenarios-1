@@ -15,4 +15,4 @@ Package the sources & catalog to generate a bin file
 
 `catalog package`{{execute}}
 
-Congrats! Now you have successfully created a bin file which is further uploaded to Bluedata Appstore.
+Congrats! Now you have successfully created a bin file which needs to be further uploaded to Bluedata Appstore.
