@@ -5,7 +5,7 @@
   "time": "10 minutes",
   "details": {
     "steps": [
-    { "title": "Step 1 - Intro to Bluedata Workbench file","text": "step1.md"},
+    { "title": "Step 1 - Intro to Bluedata workbench file","text": "step1.md"},
     { "title": "Step 2 - Key concepts of bdwb", "text": "step2.md"},
     { "title": "Step 3 - Appconfig autogen scripts", "text": "step3.md"},
     { "title": "Step 4 - Image pull from external registry", "text": "step4.md"},
