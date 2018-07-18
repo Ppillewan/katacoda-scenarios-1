@@ -2,7 +2,7 @@ This is your Fourth step
 
 ## Task 9
 
-Now we can pull rhel7 docker image on to role worker. We can have different/same docker images pulled based on the roles defined.
+Let's pull rhel7 image onto the role worker.
 
 `image pull --basedir image/centos --image-repotag docker.io/bluedata/rhel7:latest --os rhel7 --roles worker`{{execute}}
 

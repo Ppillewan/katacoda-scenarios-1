@@ -1,13 +1,13 @@
 This is your Second step. 
+Let's focus on the keys aspects of image building
 
-1. Let's focus on the keys aspects of image building
-    a. Create a new catalog image
-    b. Add few roles
-    c. Autogenerate the new application configuration scripts & package them
-    d. Pull the docker image from external repository or registry (ex: dockerhub)
-    e. Package the docker image in the bin file
-    f. Save the catalog
-    g. Package the sources & catlog to the bin file
+1. Create a new catalog image
+2. Add few roles
+3. Autogenerate the new application configuration scripts & package them
+4. Pull the docker image from external repository or registry (ex: dockerhub)
+5. Package the docker image in the bin file
+6. Save the catalog
+7. Package the sources & catlog to the bin file
 
 
 ## Task 4
