@@ -1,5 +1,5 @@
 {
-  "title": "Building Bluedata Image Scenario",
+  "title": "Intro To Building Applications for Bluedata EPIC.",
   "description": "Your First Scenario",
   "difficulty": "beginner",
   "time": "10 minutes",
@@ -10,19 +10,16 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courceData": "init.sh",
-      "credits": ""
+      "code": "init.sh"
     },
     "finish": {
       "text": "finish.md"
     },
     "assets": {
-        "client": [
-            {
-                "file": "catalogsdk-master.tgz",
-                "target": "/"
-            }
-        ]
+        "host01": {
+            "file": "catalogsdk-master.tgz",
+            "target": "/"
+        }
     }
   },
   "environment": {
