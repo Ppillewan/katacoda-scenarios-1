@@ -10,7 +10,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "init.sh"
+      "courseData": "init.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -24,7 +24,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mStart Bluedata Application Workbench environment using `init.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mInitializing Bluedata Application Workbench environment.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "centos-vm"
