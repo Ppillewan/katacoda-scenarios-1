@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -e
-
 yum install -y epel-release
 yum install -y python-setuptools python-requests python-argparse docker wget
 
@@ -12,3 +10,5 @@ wget https://github.com/SahithiGunna/katacoda-scenarios/blob/master/BD-Centos/ca
 tar -xzf /catalogsdk-master.tgz
 cd /catalogsdk-master
 python setup.py develop
+
+exit 0
