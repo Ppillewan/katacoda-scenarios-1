@@ -1,22 +1,16 @@
 
-This is your first step. 
-Let's understand the key commands for building a workbench file 
+Introducing BlueData's Application Workbench.
 
 ## Task 1
 
-Run bdwb command to enter into Appworkbench shell
+Run bdwb command to enter into Application Workbench shell
 
 `bdwb`{{execute}}
 
 ## Task 2
 
-Type "help" to get the list of supported workbench commands
+The workbench has inline help. Try the following
 
 `help`{{execute}}
-
-## Task 3
-
-Specify the builder organization name
-
-`builder organization --name Bluedata`{{execute}}
-
+`help catalog`{{execute}}
+`help catalog new`{{execute}}
