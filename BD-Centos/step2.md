@@ -35,4 +35,4 @@ We are ready to package everything.
 `catalog save`{{execute}}
 `catalog package`{{execute}}
 
-Congrats! Your first Application for BlueData EPIC platform is successfully crated. You should see the last command display the location of the application bin (extension `.bin`) file.
+Congrats! Your first Application for BlueData EPIC platform is successfully created. You should see the last command display the location of the application bin (extension `.bin`) file.
