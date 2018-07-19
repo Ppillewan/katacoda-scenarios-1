@@ -1,6 +1,6 @@
 Let's build a simple application.
 
-##Task 1
+## Task 1
 First you need to specify your organization. This is for easy identification of the application source. This also helps disambiguate same big data application built by different teams or corporations.
 
 `builder organization --name tutorial`{{execute}}
