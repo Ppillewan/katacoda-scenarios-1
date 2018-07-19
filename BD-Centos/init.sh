@@ -3,10 +3,12 @@
 set -e
 
 yum install -y epel-release
-yum install -y python-setuptools python-requests python-argparse docker
+yum install -y python-setuptools python-requests python-argparse docker wget
 
 systemctl start docker
 
-tar -C / -xzf /catalogsdk-master.tgz
+cd /
+wget https://github.com/SahithiGunna/katacoda-scenarios/blob/master/BD-Centos/catalogsdk-master.tgz
+tar -xzf /catalogsdk-master.tgz
 cd /catalogsdk-master
 python setup.py develop
