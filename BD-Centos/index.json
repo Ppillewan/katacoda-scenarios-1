@@ -10,10 +10,19 @@
     ],
     "intro": {
       "text": "intro.md",
+      "courceData": "init.sh",
       "credits": ""
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+        "client": [
+            {
+                "file": "catalogsdk-master.tgz",
+                "target": "/"
+            }
+        ]
     }
   },
   "environment": {
