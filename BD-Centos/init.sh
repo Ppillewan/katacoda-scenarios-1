@@ -12,4 +12,3 @@ cd /catalogsdk-master
 python setup.py develop
 
 clear
-exit 0
