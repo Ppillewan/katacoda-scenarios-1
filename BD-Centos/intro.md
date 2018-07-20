@@ -1,3 +1,3 @@
-Welcome to your first Katacoda Scenario!
+Welcome to BlueData Application Workbench tutorial!
 
-This tutorial is to learn key concepts about image building workbench tool. By the end of this tutorial you will know how to create a workbench file and a bin file which has all the components packaged in it. 
+This tutorial will teach you the fundamental concepts of BlueData Application Workbench. By the end of this tutorial you will create a simple application that can be used to launch clusters on BlueData EPIC platform.
