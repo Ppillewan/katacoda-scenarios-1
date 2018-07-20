@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -e
-
 yum install -d0 -e1 -y epel-release
 yum install -d2 -e1 -y python-setuptools python-requests python-argparse docker wget
 
