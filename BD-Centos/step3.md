@@ -9,6 +9,7 @@ Exit out of the workbench shell
 The newly built application package (or bundle) is saved in the deliverables directory.
 
 `cd deliverables`{{execute}}
+
 `ls `{{execute}}
 
 ## Task 3 of 3
