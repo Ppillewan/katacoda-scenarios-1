@@ -10,8 +10,7 @@
     { "title": "Step 3 - Inspect the package.", "text": "step3.md"}
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "init.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
